@@ -1,0 +1,29 @@
+.gallery {
+  &__carousel {
+    width: 90% ;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      & {
+        width: 70%;
+      }
+    }
+  }
+
+  &__container {
+    background-color: $light-green;
+    padding: 30px 30px;
+
+  }
+
+  &__headline {
+    font-size: 3em;
+    color: $white;
+    margin-bottom: 30px;
+  }
+}
+
+
+.carousel-inner{
+  max-height: 500px !important;
+}

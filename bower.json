@@ -1,0 +1,32 @@
+{
+  "name": "Agromilenio",
+  "description": "Static page from a colombia milk factory",
+  "main": "index.js",
+  "authors": [
+    "anamariasosam <anamariasosam@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/anamariasosa/agromilenio",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dist/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "jQuery#~2.1.4"
+  },
+  "resolutions": {
+    "jquery": "1.9.1 - 2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "lightslider": "^1.1.5",
+    "animate.css": "^3.5.1",
+    "font-awesome": "^4.5.0",
+    "animatescroll": "^1.0.7"
+  }
+}

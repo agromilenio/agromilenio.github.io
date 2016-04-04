@@ -1,0 +1,16 @@
+@import "helpers/variables.scss";
+@import "mixins/arrow.scss";
+@import "helpers/fonts.scss";
+@import "layouts/header.scss";
+@import "layouts/process.scss";
+@import "layouts/location.scss";
+@import "layouts/gallery.scss";
+@import "layouts/history.scss";
+@import "layouts/footer.scss";
+
+.body__container {
+  padding: 0;
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}

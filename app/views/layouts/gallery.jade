@@ -1,0 +1,21 @@
+.gallery__container#section5.clearfix
+  h2.gallery__headline Nuestro orgullo
+  #gallery__carousel.gallery__carousel.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#gallery__carousel', data-slide-to='0')
+        - for (var x = 1; x < 25; x++)
+          li(data-target='#gallery__carousel', data-slide-to=''+ x + '')
+
+      .carousel-inner(role='listbox')
+        .item.active
+          img(src='images/1.jpg', alt='agromilenio')
+        - for (var x = 2; x < 18; x++)
+          .item
+            img(src='images/' + x +'.jpg', alt='...')
+
+      a.left.carousel-control(href='#gallery__carousel', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+        span.sr-only Previous
+      a.right.carousel-control(href='#gallery__carousel', role='button', data-slide='next')
+        span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+        span.sr-only Next

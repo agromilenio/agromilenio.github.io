@@ -1,0 +1,10 @@
+.process__container.clearfix#section2
+  .process__images_container.clearfix
+    - for (var x = 0; x < 9; x++)
+      .process__cols.col-xs-6.col-sm-3.col-md-2.hidden
+        .process__images-circle
+          i(class="process__image_" + x).process__images
+        if (x > 0)
+          i.fa.fa-arrow-right.process__arrow
+  h3.process__headline.text-center "Más que un vaso de leche es el fruto del
+                                    | trabajo de nuestros campesinos Gómez platenses"

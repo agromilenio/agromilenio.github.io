@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:500,300);
+/* line 2, app/sass/layouts/header.scss */
+.header__container {
+  background-color: #AEE239;
+  color: #FFF;
+  padding-top: 110px;
+  padding: 60px 30px;
+  text-align: center;
+}
+/* line 10, app/sass/layouts/header.scss */
+.header__deck {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* line 15, app/sass/layouts/header.scss */
+.header__description {
+  padding-top: 10%;
+}
+/* line 19, app/sass/layouts/header.scss */
+.header__logo {
+  width: 400px;
+  margin: auto;
+}
+/* line 24, app/sass/layouts/header.scss */
+.header__title {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  /* line 32, app/sass/layouts/header.scss */
+  .header__title {
+    font-size: 60px;
+  }
+
+  /* line 36, app/sass/layouts/header.scss */
+  .header__deck {
+    font-size: 25px;
+  }
+}
+/* line 3, app/sass/layouts/process.scss */
+.process__arrow {
+  top: 40%;
+  left: -4%;
+  position: absolute;
+  color: #4B4F56;
+  font-size: 18px;
+}
+@media (max-width: 767px) {
+  /* line 14, app/sass/layouts/process.scss */
+  .process__cols:nth-child(2n + 1) .process__arrow {
+    top: -6%;
+    left: 97%;
+    transform: rotate(145deg);
+  }
+  /* line 21, app/sass/layouts/process.scss */
+  .process__arrow {
+    font-size: 15px;
+    left: -1%;
+  }
+}
+/* line 28, app/sass/layouts/process.scss */
+.process__container {
+  background-color: #F9F2E7;
+  padding: 90px 0 40px 0;
+  text-align: center;
+  height: auto;
+}
+/* line 34, app/sass/layouts/process.scss */
+.process__headline {
+  color: #8FBE00;
+  width: 70%;
+  margin: 40px auto;
+  font-size: 30px;
+}
+@media (max-width: 500px) {
+  /* line 34, app/sass/layouts/process.scss */
+  .process__headline {
+    font-size: 16px;
+  }
+}
+/* line 44, app/sass/layouts/process.scss */
+.process__images {
+  background-image: url(../images/process.png);
+  background-repeat: no-repeat;
+  background-size: 400px 363px;
+  display: block;
+  height: 100px;
+}
+/* line 52, app/sass/layouts/process.scss */
+.process__images_container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  /* line 52, app/sass/layouts/process.scss */
+  .process__images_container {
+    padding: 0 70px;
+  }
+}
+/* line 63, app/sass/layouts/process.scss */
+.process__images-circle {
+  background-color: #00A8C6;
+  border-radius: 50%;
+  height: 120px;
+  margin: 20px auto;
+  padding-left: 15px;
+  width: 120px;
+}
+/* line 74, app/sass/layouts/process.scss */
+.process__image_0 {
+  background-position: -228px -8px;
+  background-size: 433px 433px;
+}
+/* line 80, app/sass/layouts/process.scss */
+.process__image_1 {
+  background-position: -83px -155px;
+  background-size: 325px 261px;
+  width: 92px;
+}
+/* line 86, app/sass/layouts/process.scss */
+.process__image_2 {
+  background-position: 2px -154px;
+  background-size: 325px 261px;
+  width: 89px;
+}
+/* line 92, app/sass/layouts/process.scss */
+.process__image_3 {
+  background-position: -9px -121px;
+  background-size: 416px 374px;
+}
+/* line 97, app/sass/layouts/process.scss */
+.process__image_4 {
+  background-position: 2px 16px;
+  background-size: 325px 261px;
+  width: 93px;
+}
+/* line 103, app/sass/layouts/process.scss */
+.process__image_5 {
+  background-position: -9px -121px;
+  background-size: 416px 374px;
+}
+/* line 108, app/sass/layouts/process.scss */
+.process__image_6 {
+  background-position: -151px -67px;
+  background-size: 303px 264px;
+}
+/* line 113, app/sass/layouts/process.scss */
+.process__image_7 {
+  background-position: -128px -164px;
+  background-size: 450px 439px;
+}
+/* line 118, app/sass/layouts/process.scss */
+.process__image_8 {
+  background-position: -269px 9px;
+  background-size: 359px 366px;
+  height: 106px;
+}
+
+/* line 2, app/sass/layouts/location.scss */
+.location__container {
+  text-align: center;
+  background-color: #40C0CB;
+  padding: 120px 0;
+}
+/* line 10, app/sass/layouts/location.scss */
+.location__text {
+  margin: 0 40px;
+  margin-top: 4%;
+  color: #FFF;
+  font-size: 23px;
+}
+
+/* line 2, app/sass/layouts/gallery.scss */
+.gallery__carousel {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* line 7, app/sass/layouts/gallery.scss */
+  .gallery__carousel {
+    width: 70%;
+  }
+}
+/* line 13, app/sass/layouts/gallery.scss */
+.gallery__container {
+  background-color: #AEE239;
+  padding: 30px 30px;
+}
+/* line 19, app/sass/layouts/gallery.scss */
+.gallery__headline {
+  font-size: 3em;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+/* line 27, app/sass/layouts/gallery.scss */
+.carousel-inner {
+  max-height: 500px !important;
+}
+
+/* line 2, app/sass/layouts/history.scss */
+.history__list {
+  width: 80%;
+}
+/* line 5, app/sass/layouts/history.scss */
+.history__container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 10px;
+}
+@media (min-width: 768px) {
+  /* line 5, app/sass/layouts/history.scss */
+  .history__container {
+    padding: 100px 140px;
+  }
+}
+/* line 13, app/sass/layouts/history.scss */
+.history__text {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* line 2, app/sass/layouts/footer.scss */
+.footer__container {
+  padding: 11px 0 5px;
+  background-color: #4B4F56;
+}
+/* line 8, app/sass/layouts/footer.scss */
+.footer__text {
+  color: #FFF;
+}
+/* line 11, app/sass/layouts/footer.scss */
+.footer__text a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* line 11, app/sass/main.scss */
+.body__container {
+  padding: 0;
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+/*# sourceMappingURL=maps/main.css.map */

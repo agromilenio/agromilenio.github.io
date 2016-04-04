@@ -1,0 +1,16 @@
+.footer {
+  &__container {
+    padding: 11px 0 5px;
+    background-color: $black
+  }
+
+  &__text {
+    & {
+      color: $white;
+    }
+    & a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
